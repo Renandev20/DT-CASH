@@ -1,0 +1,37 @@
+{
+  "name": "dt-cash",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "server": "npx json-server server.json -w",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.1",
+    "@radix-ui/react-dialog": "^1.1.4",
+    "@radix-ui/react-radio-group": "^1.2.2",
+    "axios": "^1.7.9",
+    "phosphor-react": "^1.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.54.2",
+    "scheduler": "^0.25.0",
+    "styled-components": "^6.1.14",
+    "use-context-selector": "^2.0.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@types/styled-components": "^5.1.34",
+    "@vitejs/plugin-react": "^4.3.4",
+    "globals": "^15.14.0",
+    "json-server": "^1.0.0-beta.3",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5"
+  }
+}
